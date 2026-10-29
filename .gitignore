@@ -1,0 +1,44 @@
+# --- Captures brutes non anonymisées (ne publier que docs/screenshots/) ---
+raw/
+assets/
+screenshots-raw/
+*-raw.png
+*-original.png
+
+# --- Documents de formation / soumission (peuvent contenir nom, tenant, notes privées) ---
+*.docx
+*.doc
+*.pdf
+
+# --- Secrets, certificats, clés ---
+.env
+.env.*
+!.env.example
+*.pfx
+*.p12
+*.pem
+*.key
+*.cer
+*.crt
+*.publishsettings
+secrets.*
+*secret*
+local.settings.json
+
+# --- Exports Entra ID (utilisateurs, jetons OATH, journaux) ---
+*.csv
+*.xlsx
+exports/
+logs/
+
+# --- Contexte Azure CLI / PowerShell ---
+.azure/
+.mg/
+*.azureauth
+TokenCache.dat
+
+# --- Éditeur / système ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
