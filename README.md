@@ -303,4 +303,4 @@ Les captures se trouvent dans [`docs/screenshots/`](docs/screenshots/). Elles on
 - Migrer vers la stratégie Authentication methods : <https://learn.microsoft.com/entra/identity/authentication/how-to-authentication-methods-manage>
 - Licences MFA : <https://learn.microsoft.com/entra/identity/authentication/concept-mfa-licensing>
 - Microsoft Graph PowerShell : <https://learn.microsoft.com/powershell/microsoftgraph/overview>
-# microsoft-entra-id-lab
+
